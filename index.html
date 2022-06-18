@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="#">
+    <style>
+        input{padding:10px; }
+        h1{color:rgb(129, 247, 11)}
+    </style>
+</head>
+<body bgcolor="rgb(129, 247, 11)">
+    <center>
+        <h1>
+            Survay Form
+        </h1>
+        <hr>
+     <form>
+   
+    <table border="1" bgcolor="white" >
+        <tr>
+            <th><label for="fname">First Name : </label></th>
+            <td>  <input type="text" name="fname" id="fname" placeholder="Enter First Name" required><br /></td> 
+        </tr>
+        
+        <tr>
+            <th> <label for="lname">Last Name : </label></th>
+            <td> <input type="text" name="lname" id="lname" placeholder="Enter Last Name" required></td>
+        </tr>
+       
+        <tr>
+            <th> <label for="email">Email : </label></th>
+            <td><input type="email" name="email" id="email" placeholder="Enter Email Address" required></td>
+        </tr>
+        <tr>
+            <th><label for="age">Age : </label></th>
+            <td> <input type="number" max="25" min="17" placeholder="Enter age between 17 to 25"></td>
+        </tr>
+        <tr>
+            <th><label for="role">Current Role : </label></th>
+            <td> <select name="role" id="role">
+                <option value="none">None</option>
+                <option value="Student">Student</option>
+                <option value="Employee">Employee</option>
+                </select></td>
+        </tr>
+        <tr>
+            <th><label for="gender">Gender : </label></th>
+            <td>
+                <input type="radio" name="gender" value="Male" id="male">Male<br />
+                <input type="radio" name="gender" value="Female" id="female">Female<br />
+                <input type="radio" name="gender" value="trans">Transgender
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <th>What do you like most : </th>
+            <td>
+                <select>
+                    <option value="chlng">Challenges</option>
+                    <option value="chlng">Playing </option>
+                    <option value="chlng">Reading</option>
+                    <option value="chlng">Coding</option>
+                    <option value="chlng">Drawing</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th><label for="skill"> Future Skill : </label></th>
+            <td>
+                <input type="checkbox" name="Fend">Frontend Project<br />
+
+                <input type="checkbox" name="Backend">Backend Project<br />
+                <input type="checkbox" name="DataBase">DataBase Project<br />
+                <input type="checkbox" name="Open">Open Source Community<br />
+                <input type="checkbox" name="Videos">Videos<br />
+                <input type="checkbox" name="UI">UI/Ux Project<br />
+                <input type="checkbox" name="Wiki">Wiki Project
+            </td>
+        </tr>
+       
+
+    </table>
+    <br>
+    <input type="submit">
+    <input type="reset">
+</form>
+</center>
+</body>
+</html>
