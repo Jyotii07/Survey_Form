@@ -1,8 +1,9 @@
 # Survey_Form
 
 Q 1) What is HTML ??
+
 :- HTML stands for Hypertext Markup Language.
-:- It is used to create struture of     webpages that are displayed on the Browser or World wide web(www).
+:- It is used to create struture of webpages that are displayed on the Browser or World wide web(www).
 :- and It contains Tags and Attributes that are used to design the web pages. Also , We can link multiple pages using the Hyperlinks.
 :- with HTML you can create your own Website.
 :- Html Elementwraps all the content on the entire page.
